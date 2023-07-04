@@ -18,8 +18,10 @@ const imageGalary = document.querySelector(".gallery");
 console.log(imageGalary);
 
 const madeGalary = images.map(image => {
+
   return `<li><img src = "${image.url}" alt = "${image.alt}"></li>`;
 });
 
 imageGalary.insertAdjacentHTML("beforeend", madeGalary .join(" "));
+imageGalary.classList.add("flex-container");
 

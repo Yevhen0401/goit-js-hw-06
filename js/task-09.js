@@ -6,7 +6,7 @@ changeColor.addEventListener('click', changeBackgroundColor);
 
 function changeBackgroundColor() {
   body.style.backgroundColor = getRandomHexColor();
-  colorSpan.textContent = getRandomHexColor();
+  colorSpan.textContent = body.style.backgroundColor;
 }
 
 function getRandomHexColor() {

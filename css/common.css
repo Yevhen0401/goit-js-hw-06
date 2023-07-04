@@ -22,3 +22,15 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+
+
+.flex-container {
+  position: relative;
+  list-style: none;
+}
+.flex-container img {
+  width: 450px;
+  height: 300px;
+  margin-bottom: 30px;
+}
